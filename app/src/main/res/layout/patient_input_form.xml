@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.moviesapplication.MainActivityPatients">
+
+    <TextView
+        android:id="@+id/editTextPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:hint="Patient Name"
+        android:maxLines="1">
+
+        <requestFocus />
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/editTextPatientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPatientName"
+        android:hint="Patient Address"
+        android:maxLines="1" />
+
+
+    <EditText
+        android:id="@+id/editCNPPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPatientAddress"
+        android:hint="Movie Year"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/editEmailPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editCNPPatient"
+        android:hint="Movie Genre"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/editNextConsultPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editEmailPatient"
+        android:hint="Movie Storyline"
+        android:maxLines="1" />
+
+</RelativeLayout>

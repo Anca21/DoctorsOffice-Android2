@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.moviesapplication.DetailsPatientActivity">
+
+
+
+
+
+    <TextView
+        android:id="@+id/thePatientName"
+        android:gravity="center"
+        android:padding="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:hint="Patient Name"
+        android:maxLines="1">
+
+        <requestFocus />
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/thePatientAddress"
+        android:gravity="center"
+        android:padding="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/thePatientName"
+        android:hint="Patient Address"
+        android:maxLines="1" />
+
+
+    <TextView
+        android:id="@+id/thePatientCnp"
+        android:gravity="center"
+        android:padding="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/thePatientAddress"
+        android:hint="Patient CNP"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/thePatientEmail"
+        android:gravity="center"
+        android:padding="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/thePatientCnp"
+        android:hint="Patient Email"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/thePatientNextConsulta"
+        android:gravity="center"
+        android:padding="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/thePatientEmail"
+        android:hint="Patient's next consult"
+        android:maxLines="1" />
+
+
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Logout"
+        android:layout_below="@+id/thePatientNextConsulta"
+        />
+    <!--<Button-->
+    <!--android:id="@+id/addConsultation"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+
+
+</RelativeLayout>

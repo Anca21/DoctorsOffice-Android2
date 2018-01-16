@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.moviesapplication.MainActivityPatients">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        >
+
+
+        <Button
+            android:id="@+id/sendEmailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Send Email"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/buttonAddPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sendEmailButton"
+            android:text="Add Patient"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <ListView
+            android:id="@+id/patientListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/buttonAddPatient"
+            android:paddingLeft="2dp" >
+        </ListView>
+
+        <Button
+            android:id="@+id/chartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Chart"
+            android:layout_below="@+id/patientListView"
+            />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Logout"
+            android:layout_below="@+id/chartButton"
+            />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.moviesapplication.MainActivityPatients">
+
+    <EditText
+        android:id="@+id/addTextPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:hint="Patient Name"
+        android:maxLines="1">
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/addTextPatientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addTextPatientName"
+        android:hint="Patient Address"
+        android:maxLines="1" />
+
+
+    <EditText
+        android:id="@+id/addTextPatientCNP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addTextPatientAddress"
+        android:hint="Patient CNP"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/addTextPatientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addTextPatientCNP"
+        android:hint="Patient Email"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/addTextPatientNextConsult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addTextPatientEmail"
+        android:hint="Patient Next Consult"
+        android:maxLines="1" />
+
+</RelativeLayout>

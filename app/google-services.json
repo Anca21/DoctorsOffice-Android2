@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "786621169819",
+    "firebase_url": "https://androidawesomeproject.firebaseio.com",
+    "project_id": "androidawesomeproject",
+    "storage_bucket": "androidawesomeproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786621169819:android:c4b2bce9fd486320",
+        "android_client_info": {
+          "package_name": "com.example.dell.moviesapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786621169819-vg9t68994ja10m5bn63j6mv3e793o3ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBykaRxyTjKPTE0yGicMQrgzRSyYsCSTDg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
